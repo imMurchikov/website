@@ -2,8 +2,6 @@
 
 import type React from "react";
 import ReactMarkdown from "react-markdown";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 interface MarkdownProps {
     content: string;
@@ -21,22 +19,6 @@ const Markdown: React.FC<MarkdownProps> = ({ content }) => {
                                 <div className="bg-[#1E1E1E] px-4 py-2 text-xs text-white/70 font-mono border-b border-[#9BA3D6]/30">
                                     {match[1]}
                                 </div>
-                                <SyntaxHighlighter
-                                    style={vscDarkPlus}
-                                    language={match[1]}
-                                    PreTag="div"
-                                    className="!font-mono !text-sm !bg-[#1E1E1E]"
-                                    showLineNumbers={true}
-                                    wrapLines={true}
-                                    customStyle={{
-                                        margin: 0,
-                                        padding: "1.25rem",
-                                        background: "#1E1E1E",
-                                    }}
-                                    {...props}
-                                >
-                                    {String(children).replace(/\n$/, "")}
-                                </SyntaxHighlighter>
                             </div>
                         ) : (
                             <code
