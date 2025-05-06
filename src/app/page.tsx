@@ -15,7 +15,7 @@ export default function Home() {
         <Image
           src="/pc-cats.webp"
           alt="Cats playing with a computer"
-          className="rounded-md"
+          className="rounded-lg"
           width={350}
           height={370}
         />

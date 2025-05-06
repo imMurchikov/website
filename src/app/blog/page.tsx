@@ -13,7 +13,7 @@ export default function BlogPage() {
                     "black",
             }}
         >
-            <div className="w-full max-w-[800px] p-4 sm:p-6 md:p-8 rounded-md bg-white/50 shadow-[0_0_26px_0_rgba(0,0,0,0.3)]">
+            <div className="w-full max-w-[800px] p-4 sm:p-6 md:p-8 rounded-lg bg-white/50 shadow-[0_0_26px_0_rgba(0,0,0,0.3)]">
                 <div className="flex items-center mb-8">
                     <Link
                         href="/"
@@ -35,7 +35,7 @@ export default function BlogPage() {
                                 className="block"
                             >
                                 <div
-                                    className="p-4 rounded-md bg-white/60  
+                                    className="p-4 rounded-lg bg-white/60  
                   hover:scale-[99%] active:scale-[100%] hover:opacity-96 active:opacity-80 hover:shadow-s 
                   transition-all duration-800 cursor-pointer"
                                 >

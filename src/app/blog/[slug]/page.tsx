@@ -54,7 +54,7 @@ export default async function PostPage(props: PostPageProps) {
                     "black",
             }}
         >
-            <div className="w-full max-w-[800px] p-4 sm:p-6 md:p-8 rounded-md bg-white/50 shadow-[0_0_26px_0_rgba(0,0,0,0.3)]">
+            <div className="w-full max-w-[800px] p-4 sm:p-6 md:p-8 rounded-lg bg-white/50 shadow-[0_0_26px_0_rgba(0,0,0,0.3)]">
                 <div className="flex items-center mb-4">
                     <Link
                         href="/blog"

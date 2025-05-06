@@ -34,7 +34,7 @@ const Markdown: React.FC<MarkdownProps> = ({ content }) => {
                             <img
                                 src={src || ""}
                                 alt={alt || ""}
-                                className="rounded-md max-w-full h-auto my-6 border border-[#9BA3D6] shadow-md"
+                                className="rounded-lg max-w-full h-auto my-6 border border-[#9BA3D6] shadow-md"
                             />
                         );
                     },
