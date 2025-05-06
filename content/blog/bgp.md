@@ -1,6 +1,6 @@
 ---
 title: around the BGP
-description: Perform simple CIDR lookups
+excerpt: Perform simple CIDR lookups
 date: 2025-05-06
 ---
 
