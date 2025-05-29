@@ -5,19 +5,13 @@ export default function Home() {
   return (
     <main className="relative w-full h-auto min-h-screen flex flex-col items-center py-8">
       <div className="border-x-[1px] border-dashed border-[#3b3b3b] mx-auto pointer-events-none select-none absolute inset-0 max-w-[1240px]"></div>
-      <Image
-        className="absolute select-none pointer-events-none bg-cover w-full h-full object-contain"
-        src="/build.png"
-        alt="Hero"
-        fill
-      />
       <div className="mt-auto relative flex flex-col items-center gap-4 z-10 px-4">
         <Image
           src="/pc-cats.webp"
           alt="Cats playing with a computer"
           className="rounded-lg"
-          width={350}
-          height={370}
+          width={340}
+          height={182}
         />
         <p>
           ... There&apos;s nothing here yet. <br></br>Follow the me
@@ -43,7 +37,7 @@ export default function Home() {
           </a>
           <span className="mx-2">/</span>
           <Link
-            href="/blog"
+            href="https://t.me/+H-cnm3aDgrAxNzUy"
             className="underline hover:opacity-90 active:opacity-80 hover:scale-[98%] active:scale-[96%] transition-all duration-200 inline-block"
           >
             [blog]
@@ -59,6 +53,10 @@ export default function Home() {
       </div>
       <footer className="mt-auto  py-8 opacity-25 text-center w-full">
         {"<<"} Copyright © 2025 murchikov. {">>"}
+        <br />
+        <a href="https://otomir23.me/webring/38/prev">&lt;-- prev|</a>
+        <a href="https:/webring.otomir23.me">webring</a>
+        <a href="https://otomir23.me/webring/38/next">|next --&gt;</a>
       </footer>
     </main>
   );
