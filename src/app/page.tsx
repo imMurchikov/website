@@ -55,7 +55,7 @@ export default function Home() {
         {"<<"} Copyright © 2025 murchikov. {">>"}
         <br />
         <a href="https://otomir23.me/webring/38/prev">&lt;-- prev|</a>
-        <a href="https:/webring.otomir23.me">webring</a>
+        <a href="https://webring.otomir23.me">webring</a>
         <a href="https://otomir23.me/webring/38/next">|next --&gt;</a>
       </footer>
     </main>
