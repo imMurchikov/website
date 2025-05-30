@@ -1,21 +1,22 @@
-import Image from "next/image";
+import Image from "next/image"
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="relative w-full h-auto min-h-screen flex flex-col items-center py-8">
-      <div className="border-x-[1px] border-dashed border-[#3b3b3b] mx-auto pointer-events-none select-none absolute inset-0 max-w-[1240px]"></div>
+      <div className="mx-auto pointer-events-none select-none absolute inset-0 max-w-[1240px]"></div>
       <div className="mt-auto relative flex flex-col items-center gap-4 z-10 px-4">
         <Image
-          src="/pc-cats.webp"
+          src="/whoevenyou.jpg"
           alt="Cats playing with a computer"
           className="rounded-lg"
           width={340}
           height={182}
         />
         <p>
-          ... There&apos;s nothing here yet. <br></br>Follow the me
-          instead on social.
+          My name is Alexander <br></br>known as
+          <b> Murchikov</b>
+          <br></br>Russian, 16 y.o. hdmi developer.
         </p>
         <nav className="font-mono text-white">
           <a
