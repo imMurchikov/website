@@ -38,7 +38,7 @@ export default function Home() {
           </a>
           <span className="mx-2">/</span>
           <Link
-            href="https://t.me/+H-cnm3aDgrAxNzUy"
+            href="https://t.me/muryaltd"
             className="underline hover:opacity-90 active:opacity-80 hover:scale-[98%] active:scale-[96%] transition-all duration-200 inline-block"
           >
             [blog]
