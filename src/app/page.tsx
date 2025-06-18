@@ -54,11 +54,9 @@ export default function Home() {
         </nav>
       </div>
       <footer className="mt-auto  py-8 opacity-25 text-center w-full">
-        {"<<"} Copyright © 2025 murchikov. {">>"}
-        <br />
-        <a href="https://otomir23.me/webring/38/prev">&lt;-- prev|</a>
+        <a href="https://otomir23.me/webring/38/prev">{"<<"}-- prev|</a>
         <a href="https://webring.otomir23.me">webring</a>
-        <a href="https://otomir23.me/webring/38/next">|next --&gt;</a>
+        <a href="https://otomir23.me/webring/38/next">|next --{">>"}</a>
       </footer>
     </main>
   );
