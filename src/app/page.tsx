@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="relative w-full h-auto min-h-screen flex flex-col items-center py-8">
+      <script defer src="https://analytics.murchikov.ru/script.js" data-website-id="df32af06-89b9-464d-b155-a9831f9f9705" />
       <div className="mx-auto pointer-events-none select-none absolute inset-0 max-w-[1240px]"></div>
       <div className="mt-auto relative flex flex-col items-center gap-4 z-10 px-4">
         <Image

@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@xterm/xterm':
-        specifier: ^5.5.0
-        version: 5.5.0
       next:
         specifier: 14.2.5
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -455,9 +452,6 @@ packages:
     resolution: {integrity: sha512-jHIsTNlnZrY3uPUJ12sSy6t20Li6FJkOlI/eoTpO8cgQGh/EfbEwdiJto9V85RYR05GpPgdnClfT+loU2WpoNA==}
     cpu: [x64]
     os: [win32]
-
-  '@xterm/xterm@5.5.0':
-    resolution: {integrity: sha512-hqJHYaQb5OptNunnyAnkHyM8aCjZ1MEIDTQu1iIbbTD/xops91NB5yq1ZK/dC2JDbVWtF23zUtl9JE2NqwT87A==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2169,8 +2163,6 @@ snapshots:
 
   '@unrs/resolver-binding-win32-x64-msvc@1.7.7':
     optional: true
-
-  '@xterm/xterm@5.5.0': {}
 
   acorn-jsx@5.3.2(acorn@8.14.1):
     dependencies:
