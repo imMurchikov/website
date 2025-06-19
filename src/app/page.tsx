@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Webring from "@/components/webring"
 import Link from "next/link";
 
 export default function Home() {
@@ -54,9 +55,7 @@ export default function Home() {
         </nav>
       </div>
       <footer className="mt-auto  py-8 opacity-25 text-center w-full">
-        <a href="https://otomir23.me/webring/38/prev">{"<<"}-- prev|</a>
-        <a href="https://webring.otomir23.me">webring</a>
-        <a href="https://otomir23.me/webring/38/next">|next --{">>"}</a>
+        <Webring />
       </footer>
     </main>
   );
