@@ -1,5 +1,7 @@
+"use client"
+
 import Image from "next/image"
-import Webring from "@/components/webring"
+import Webring from "@/components/Webring"
 import Link from "next/link";
 
 export default function Home() {
