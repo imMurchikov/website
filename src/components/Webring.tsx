@@ -19,7 +19,7 @@ export default function Webring() {
     const [data, setData] = useState<SiteData | null>(null)
 
     useEffect(() => {
-        fetch("https://webring.otomir23.me/38/data")
+        fetch("https://webring.otomir23.me/murchikov/data")
             .then((r) => r.json())
             .then(setData)
             .catch(() => setData(null))
@@ -52,11 +52,11 @@ export default function Webring() {
     if (!data) {
         return (
             <div className="mt-2 flex justify-center gap-2">
-                <a href="https://webring.otomir23.me/38/prev" className="ascii-link">
+                <a href="https://webring.otomir23.me/murchikov/prev" className="ascii-link">
                     prev
                 </a>
                 <span>webring</span>
-                <a href="https://webring.otomir23.me/38/next" className="ascii-link">
+                <a href="https://webring.otomir23.me/murchikov/next" className="ascii-link">
                     next
                 </a>
             </div>
