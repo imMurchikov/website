@@ -27,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script defer src="https://analytics.murchikov.ru/script.js" data-website-id="df32af06-89b9-464d-b155-a9831f9f9705" />
       <body className={plex_mono.className}>{children}</body>
     </html>
   );
