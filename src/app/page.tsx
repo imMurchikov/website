@@ -64,7 +64,7 @@ export default function Home() {
           </Link>
         </nav>
       </div>
-      <footer className="mt-auto  py-8 opacity-25 text-center w-full">
+      <footer className="mt-auto  py-8 text-center w-full">
         <Webring />
         <Badges />
       </footer>
