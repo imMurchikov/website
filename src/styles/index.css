@@ -1,0 +1,33 @@
+@unocss all;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+
+a {
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.badge-item {
+  transition-property: all;
+  transition-timing-function: var(--un-ease, var(--defaults-transition-timingFunction));
+  transition-duration: var(--un-duration, var(--defaults-transition-duration));
+  --un-duration: 100ms;
+  transition-duration: .1s;
+  syntax: "*";
+  inherits: false;
+  initial-value: 1
+}
+
+.badge-item:hover {
+  --un-scale-x: 200%;
+  --un-scale-y: 200%;
+  scale: var(--un-scale-x) var(--un-scale-y)
+}

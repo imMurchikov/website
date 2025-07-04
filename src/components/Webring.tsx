@@ -55,7 +55,7 @@ export default function Webring() {
                 <a href="https://webring.otomir23.me/murchikov/prev" className="ascii-link">
                     prev
                 </a>
-                <span>webring</span>
+                <a href="https://webring.otomir23.me/">[otoring]</a>
                 <a href="https://webring.otomir23.me/murchikov/next" className="ascii-link">
                     next
                 </a>
@@ -66,7 +66,7 @@ export default function Webring() {
     return (
         <div className="mt-2 flex justify-center gap-4">
             {renderLink(data.prev)}
-            <span>webring</span>
+            <a href="https://webring.otomir23.me/">[otoring]</a>
             {renderLink(data.next)}
         </div>
     )

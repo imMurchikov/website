@@ -3,6 +3,7 @@
 import Image from "next/image"
 import Webring from "@/components/Webring"
 import Link from "next/link";
+import Badges from "@/components/Badges";
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
           </a>
           <span className="mx-2">/</span>
           <Link
-            href="https://t.me/muryaltd"
+            href="https://t.me/muriapub"
             className="underline hover:opacity-90 active:opacity-80 hover:scale-[98%] active:scale-[96%] transition-all duration-200 inline-block"
           >
             [blog]
@@ -53,10 +54,19 @@ export default function Home() {
           >
             [discord]
           </Link>
+          <span className="mx-2">/</span>
+          <br />
+          <Link
+            href="https://social.r4v3.party/@mur"
+            className="underline hover:opacity-90 active:opacity-80 hover:scale-[98%] active:scale-[96%] transition-all duration-200 inline-block"
+          >
+            [fediverse]
+          </Link>
         </nav>
       </div>
       <footer className="mt-auto  py-8 opacity-25 text-center w-full">
         <Webring />
+        <Badges />
       </footer>
     </main>
   );
