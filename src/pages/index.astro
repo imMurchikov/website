@@ -1,0 +1,77 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+import Webring from "../components/Webring.tsx";
+import Badges from "../components/Badges.astro";
+
+const metadata = {
+    title: "<< murchikov >>",
+    description: "Something's cooking at home.",
+};
+---
+
+<Layout title={metadata.title} description={metadata.description}>
+    <main class="main-container">
+        <div class="overlay-div"></div>
+        <div class="content-wrapper">
+            <Image
+                src="/whoevenyou.jpg"
+                alt="Cats playing with a computer"
+                class="main-image"
+                width={340}
+                height={182}
+            />
+            <p>
+                My name is Alexander <br />known as
+                <b> Murchikov</b>
+                <br />Russian, 16 y.o. hdmi developer.
+            </p>
+            <nav class="main-nav">
+                <a
+                    href="https://github.com/immurchikov"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    [github]
+                </a>
+                <span>/</span>
+                <a
+                    href="https://t.me/mypchikov"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    [telegram]
+                </a>
+                <span>/</span>
+                <a
+                    href="https://t.me/muriapub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    [blog]
+                </a>
+                <span>/</span>
+                <a
+                    href="https://discord.com/users/1175785170482233344"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    [discord]
+                </a>
+                <span>/</span>
+                <br />
+                <a
+                    href="https://social.r4v3.party/@mur"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    [fediverse]
+                </a>
+            </nav>
+        </div>
+        <footer class="main-footer">
+            <Webring client:load />
+            <Badges />
+        </footer>
+    </main>
+</Layout>
