@@ -29,7 +29,7 @@ export default function Webring() {
         <a
             key={site.id}
             href={site.url}
-            className="ascii-link flex items-center"
+            className="ascii-link"
             target="_blank"
             rel="noopener noreferrer"
         >
@@ -39,7 +39,7 @@ export default function Webring() {
                     alt=""
                     width={16}
                     height={16}
-                    className="mr-1 shrink-0"
+                    className="webring-favicon"
                     onError={(e) => {
                         (e.currentTarget as HTMLImageElement).style.display = "none"
                     }}
@@ -51,7 +51,7 @@ export default function Webring() {
 
     if (!data) {
         return (
-            <div className="mt-2 flex justify-center gap-2">
+            <div className="webring-container-fallback">
                 <a href="https://webring.otomir23.me/murchikov/prev" className="ascii-link">
                     prev
                 </a>
@@ -64,7 +64,7 @@ export default function Webring() {
     }
 
     return (
-        <div className="mt-2 flex justify-center gap-4">
+        <div className="webring-container">
             {renderLink(data.prev)}
             <a href="https://webring.otomir23.me/">[otoring]</a>
             {renderLink(data.next)}
